@@ -30,6 +30,9 @@
             cursor: pointer;
             border-radius: 16px;
         }
+        .otpverify{
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -41,7 +44,7 @@
         <input type="password" id="senha" placeholder="Choose a password">
 
         <div class="otpverify">
-            <input type="text" placeholder="Enter the OTP sent to you email...">
+            <input type="text" id="otp_inp" placeholder="Enter the OTP sent to you email...">
             <button class="btn" id="otp-btn">Verify</button>
         </div>
 
