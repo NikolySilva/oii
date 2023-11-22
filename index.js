@@ -7,4 +7,5 @@ function sendOTP(){
     //Create a SMTP credentials
 
     //email code
+    ser´q que agora vai
 }
