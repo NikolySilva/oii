@@ -20,14 +20,12 @@ function sendOTP(){
         From : "nikolypereira72@gmail.com",
         Subject : "Olá segue abaixo seu código:",
         Body : emailbody
-    }).then(
-        //se sucesso retorna "ok"
-      message => {
-        if(message == "ok"){
+    }).then( message => {
+        if(message === "OK"){
             alert("Código enviado para o email "+ email.value);
 
             //agora deixar o output visible
-            otpverify.computedStyleMap.display = "block";
+            otpverify.style.display = "block";
             const otp_inp = document.getElementById('otp_inp');
             const otp_btn = document.getElementById('otp-btn');
 
